@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Color</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="">
+    <header>
+      <!-- nav section  -->
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <h2 class="">Merge HEX code and Opacity</h2>
+          <div class="merge-container">
+            <div class="left">
+              <label for="hex-inp">Enter Hex Code</label>
+              <input
+                type="text"
+                class="inp"
+                id="hex-inp"
+                placeholder="#fafafa" />
+              <label for="opacity-inp">Enter opacity (0.00 to 1.00)</label>
+              <input
+                type="number"
+                name=""
+                id="opacity-inp"
+                placeholder="0.65"
+                class="inp" />
+              <button class="btn merge-btn" id="merge-btn">Merge</button>
+            </div>
+            <div class="right">
+              <img
+                src="https://www.seattlestagedtosell.com/wp-content/uploads/2022/02/ui-color-palette-analogous-color-palette.jpg"
+                class="merge-img"
+                alt="" />
+            </div>
+          </div>
+          <div class="code-container">
+            <div class="card">
+              <div class="card-header">
+                <h2>HEX Code</h2>
+                <div class="card-buttons">
+                  <div class="color-div"></div>
+                  <button class="copy-btn">Copy</button>
+                </div>
+              </div>
+              <div class="card-body">
+                <p class="hex-color-code color-code">#bb00ffff</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h2>RGBA Code</h2>
+                <div class="card-buttons">
+                  <div class="color-div"></div>
+                  <button class="copy-btn">Copy</button>
+                </div>
+              </div>
+              <div class="card-body">
+                <p class="rgba-color-code color-code">rgba(187,0,255,1)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
